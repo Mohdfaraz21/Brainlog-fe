@@ -1,9 +1,12 @@
-
+import { Button } from "./components/Button";
+import { ShareIcon } from "./icons/ShareIcon";
 
 function App() {
   return (
     <>
-      <div className="bg-red-400">hii there</div>
+      <div className="">
+        <Button variant="primary" text="Share" startIcon={<ShareIcon />} />
+      </div>
     </>
   );
 }
