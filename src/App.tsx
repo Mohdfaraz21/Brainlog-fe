@@ -1,5 +1,6 @@
 import { Button } from "./components/Button";
 import { Card } from "./components/Card";
+import { CreateContentModal } from "./components/CreateContentModal";
 import { PlusIcon } from "./icons/PlusIcon";
 import { ShareIcon } from "./icons/ShareIcon";
 
@@ -27,6 +28,7 @@ function App() {
           type="youtube"
         />
       </div>
+      <CreateContentModal open={true} onClose={() => {}} />
     </>
   );
 }
