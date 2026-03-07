@@ -20,7 +20,7 @@ export function CreateContentModal({open, onClose}: {open: boolean, onClose: () 
                           <input placeholder={"Title"} />
                           <input placeholder={"Link"} />
                       </div>
-                      {/* <div>
+                      <div>
                           <h1>Type</h1>
                           <div className="flex gap-1 justify-center pb-2">
                               <Button text="Youtube" variant={type === ContentType.Youtube ? "primary" : "secondary"} onClick={() => {
@@ -30,9 +30,9 @@ export function CreateContentModal({open, onClose}: {open: boolean, onClose: () 
                                   setType(ContentType.Twitter)
                               }}></Button>
                           </div>
-                      </div> */}
+                      </div>
                       <div className="flex justify-center">
-                          {/* <Button onClick={addContent} variant="primary" text="Submit" /> */}
+                          <Button  variant="primary" text="Submit" />
                       </div>
                   </span>
               </div>     
