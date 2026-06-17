@@ -1,7 +1,7 @@
 import { Signin } from "./pages/signin"
 import { Signup } from "./pages/Signup"
 import { BrowserRouter, Routes, Route } from "react-router-dom"
-import Dashboard from "./pages/dashboard"
+import { Dashboard } from "./pages/dashboard"
 function App() {
   return <BrowserRouter>
     <Routes>
